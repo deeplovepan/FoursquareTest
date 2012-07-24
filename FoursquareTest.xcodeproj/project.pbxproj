@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A627684115BE9A67004DE0C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A627684015BE9A67004DE0C4 /* UIKit.framework */; };
+		A627684315BE9A67004DE0C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A627684215BE9A67004DE0C4 /* Foundation.framework */; };
+		A627684515BE9A68004DE0C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A627684415BE9A67004DE0C4 /* CoreGraphics.framework */; };
+		A627684B15BE9A68004DE0C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A627684915BE9A68004DE0C4 /* InfoPlist.strings */; };
+		A627684D15BE9A68004DE0C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A627684C15BE9A68004DE0C4 /* main.m */; };
+		A627685115BE9A68004DE0C4 /* FoursquareTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A627685015BE9A68004DE0C4 /* FoursquareTestAppDelegate.m */; };
+		A627685415BE9A68004DE0C4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A627685215BE9A68004DE0C4 /* MainStoryboard.storyboard */; };
+		A627685715BE9A68004DE0C4 /* FoursquareTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A627685615BE9A68004DE0C4 /* FoursquareTestViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A627683C15BE9A67004DE0C4 /* FoursquareTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoursquareTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A627684015BE9A67004DE0C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A627684215BE9A67004DE0C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A627684415BE9A67004DE0C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A627684815BE9A68004DE0C4 /* FoursquareTest-Info.plist */ = {isa = PBXFileReference; path = "FoursquareTest-Info.plist"; sourceTree = "<group>"; };
+		A627684A15BE9A68004DE0C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A627684C15BE9A68004DE0C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A627684E15BE9A68004DE0C4 /* FoursquareTest-Prefix.pch */ = {isa = PBXFileReference; path = "FoursquareTest-Prefix.pch"; sourceTree = "<group>"; };
+		A627684F15BE9A68004DE0C4 /* FoursquareTestAppDelegate.h */ = {isa = PBXFileReference; path = FoursquareTestAppDelegate.h; sourceTree = "<group>"; };
+		A627685015BE9A68004DE0C4 /* FoursquareTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoursquareTestAppDelegate.m; sourceTree = "<group>"; };
+		A627685315BE9A68004DE0C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A627685515BE9A68004DE0C4 /* FoursquareTestViewController.h */ = {isa = PBXFileReference; path = FoursquareTestViewController.h; sourceTree = "<group>"; };
+		A627685615BE9A68004DE0C4 /* FoursquareTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoursquareTestViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A627683915BE9A67004DE0C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A627684115BE9A67004DE0C4 /* UIKit.framework in Frameworks */,
+				A627684315BE9A67004DE0C4 /* Foundation.framework in Frameworks */,
+				A627684515BE9A68004DE0C4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A627683115BE9A67004DE0C4 = {
+			isa = PBXGroup;
+			children = (
+				A627684615BE9A68004DE0C4 /* FoursquareTest */,
+				A627683F15BE9A67004DE0C4 /* Frameworks */,
+				A627683D15BE9A67004DE0C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A627683D15BE9A67004DE0C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A627683C15BE9A67004DE0C4 /* FoursquareTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A627683F15BE9A67004DE0C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A627684015BE9A67004DE0C4 /* UIKit.framework */,
+				A627684215BE9A67004DE0C4 /* Foundation.framework */,
+				A627684415BE9A67004DE0C4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A627684615BE9A68004DE0C4 /* FoursquareTest */ = {
+			isa = PBXGroup;
+			children = (
+				A627684F15BE9A68004DE0C4 /* FoursquareTestAppDelegate.h */,
+				A627685015BE9A68004DE0C4 /* FoursquareTestAppDelegate.m */,
+				A627685215BE9A68004DE0C4 /* MainStoryboard.storyboard */,
+				A627685515BE9A68004DE0C4 /* FoursquareTestViewController.h */,
+				A627685615BE9A68004DE0C4 /* FoursquareTestViewController.m */,
+				A627684715BE9A68004DE0C4 /* Supporting Files */,
+			);
+			path = FoursquareTest;
+			sourceTree = "<group>";
+		};
+		A627684715BE9A68004DE0C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A627684815BE9A68004DE0C4 /* FoursquareTest-Info.plist */,
+				A627684915BE9A68004DE0C4 /* InfoPlist.strings */,
+				A627684C15BE9A68004DE0C4 /* main.m */,
+				A627684E15BE9A68004DE0C4 /* FoursquareTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A627683B15BE9A67004DE0C4 /* FoursquareTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A627685A15BE9A68004DE0C4 /* Build configuration list for PBXNativeTarget "FoursquareTest" */;
+			buildPhases = (
+				A627683815BE9A67004DE0C4 /* Sources */,
+				A627683915BE9A67004DE0C4 /* Frameworks */,
+				A627683A15BE9A67004DE0C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoursquareTest;
+			productName = FoursquareTest;
+			productReference = A627683C15BE9A67004DE0C4 /* FoursquareTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A627683315BE9A67004DE0C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FoursquareTest;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A627683615BE9A67004DE0C4 /* Build configuration list for PBXProject "FoursquareTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A627683115BE9A67004DE0C4;
+			productRefGroup = A627683D15BE9A67004DE0C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A627683B15BE9A67004DE0C4 /* FoursquareTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A627683A15BE9A67004DE0C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A627684B15BE9A68004DE0C4 /* InfoPlist.strings in Resources */,
+				A627685415BE9A68004DE0C4 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A627683815BE9A67004DE0C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A627684D15BE9A68004DE0C4 /* main.m in Sources */,
+				A627685115BE9A68004DE0C4 /* FoursquareTestAppDelegate.m in Sources */,
+				A627685715BE9A68004DE0C4 /* FoursquareTestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A627684915BE9A68004DE0C4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A627684A15BE9A68004DE0C4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A627685215BE9A68004DE0C4 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A627685315BE9A68004DE0C4 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A627685815BE9A68004DE0C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A627685915BE9A68004DE0C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A627685B15BE9A68004DE0C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FoursquareTest/FoursquareTest-Prefix.pch";
+				INFOPLIST_FILE = "FoursquareTest/FoursquareTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A627685C15BE9A68004DE0C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FoursquareTest/FoursquareTest-Prefix.pch";
+				INFOPLIST_FILE = "FoursquareTest/FoursquareTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A627683615BE9A67004DE0C4 /* Build configuration list for PBXProject "FoursquareTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A627685815BE9A68004DE0C4 /* Debug */,
+				A627685915BE9A68004DE0C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A627685A15BE9A68004DE0C4 /* Build configuration list for PBXNativeTarget "FoursquareTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A627685B15BE9A68004DE0C4 /* Debug */,
+				A627685C15BE9A68004DE0C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A627683315BE9A67004DE0C4 /* Project object */;
+}
