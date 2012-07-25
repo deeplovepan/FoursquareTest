@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FoursquarePlaceTableViewController.h"
 
-@interface FoursquareTestViewController : UIViewController
+@interface FoursquareTestViewController : UIViewController <FoursquarePlaceTableViewControlleDelegate>
+
+
+- (IBAction)searchPlaceButtonPressed:(id)sender;
 
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "FoursquareTestViewController.h"
+#import "MyFoursquare.h"
 
 @interface FoursquareTestViewController ()
 
@@ -29,6 +30,24 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+}
+
+- (IBAction)searchPlaceButtonPressed:(id)sender {
+    
+    FoursquarePlaceTableViewController *controller = [[FoursquarePlaceTableViewController alloc] init];
+    controller.delegate = self;
+    [self presentViewController:controller animated:YES completion:nil];
+    
+    
+}
+
+
+
+#pragma mark - FoursquarePlaceTableViewControlleDelegate
+
+-(void)getPlaceDone:(MyFoursquare*)place
+{
+    
 }
 
 @end

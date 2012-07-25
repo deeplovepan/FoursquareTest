@@ -15,6 +15,11 @@
 		A627685115BE9A68004DE0C4 /* FoursquareTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A627685015BE9A68004DE0C4 /* FoursquareTestAppDelegate.m */; };
 		A627685415BE9A68004DE0C4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A627685215BE9A68004DE0C4 /* MainStoryboard.storyboard */; };
 		A627685715BE9A68004DE0C4 /* FoursquareTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A627685615BE9A68004DE0C4 /* FoursquareTestViewController.m */; };
+		A627686615BE9AF0004DE0C4 /* MyFoursquare.m in Sources */ = {isa = PBXBuildFile; fileRef = A627686315BE9AF0004DE0C4 /* MyFoursquare.m */; };
+		A627686715BE9AF0004DE0C4 /* FoursquarePlaceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A627686515BE9AF0004DE0C4 /* FoursquarePlaceTableViewController.m */; };
+		A627686B15BE9BC5004DE0C4 /* MyWeb.m in Sources */ = {isa = PBXBuildFile; fileRef = A627686A15BE9BC5004DE0C4 /* MyWeb.m */; };
+		A627686F15BE9BE4004DE0C4 /* MyActivityIndicatorViewLib.m in Sources */ = {isa = PBXBuildFile; fileRef = A627686E15BE9BE4004DE0C4 /* MyActivityIndicatorViewLib.m */; };
+		A627687215BE9C0B004DE0C4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A627687115BE9C0B004DE0C4 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +27,25 @@
 		A627684015BE9A67004DE0C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A627684215BE9A67004DE0C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A627684415BE9A67004DE0C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A627684815BE9A68004DE0C4 /* FoursquareTest-Info.plist */ = {isa = PBXFileReference; path = "FoursquareTest-Info.plist"; sourceTree = "<group>"; };
+		A627684815BE9A68004DE0C4 /* FoursquareTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FoursquareTest-Info.plist"; sourceTree = "<group>"; };
 		A627684A15BE9A68004DE0C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A627684C15BE9A68004DE0C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A627684E15BE9A68004DE0C4 /* FoursquareTest-Prefix.pch */ = {isa = PBXFileReference; path = "FoursquareTest-Prefix.pch"; sourceTree = "<group>"; };
-		A627684F15BE9A68004DE0C4 /* FoursquareTestAppDelegate.h */ = {isa = PBXFileReference; path = FoursquareTestAppDelegate.h; sourceTree = "<group>"; };
+		A627684E15BE9A68004DE0C4 /* FoursquareTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FoursquareTest-Prefix.pch"; sourceTree = "<group>"; };
+		A627684F15BE9A68004DE0C4 /* FoursquareTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoursquareTestAppDelegate.h; sourceTree = "<group>"; };
 		A627685015BE9A68004DE0C4 /* FoursquareTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoursquareTestAppDelegate.m; sourceTree = "<group>"; };
 		A627685315BE9A68004DE0C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		A627685515BE9A68004DE0C4 /* FoursquareTestViewController.h */ = {isa = PBXFileReference; path = FoursquareTestViewController.h; sourceTree = "<group>"; };
+		A627685515BE9A68004DE0C4 /* FoursquareTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoursquareTestViewController.h; sourceTree = "<group>"; };
 		A627685615BE9A68004DE0C4 /* FoursquareTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoursquareTestViewController.m; sourceTree = "<group>"; };
+		A627686215BE9AF0004DE0C4 /* MyFoursquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFoursquare.h; sourceTree = "<group>"; };
+		A627686315BE9AF0004DE0C4 /* MyFoursquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFoursquare.m; sourceTree = "<group>"; };
+		A627686415BE9AF0004DE0C4 /* FoursquarePlaceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoursquarePlaceTableViewController.h; sourceTree = "<group>"; };
+		A627686515BE9AF0004DE0C4 /* FoursquarePlaceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoursquarePlaceTableViewController.m; sourceTree = "<group>"; };
+		A627686915BE9BC5004DE0C4 /* MyWeb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWeb.h; sourceTree = "<group>"; };
+		A627686A15BE9BC5004DE0C4 /* MyWeb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWeb.m; sourceTree = "<group>"; };
+		A627686D15BE9BE4004DE0C4 /* MyActivityIndicatorViewLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyActivityIndicatorViewLib.h; sourceTree = "<group>"; };
+		A627686E15BE9BE4004DE0C4 /* MyActivityIndicatorViewLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyActivityIndicatorViewLib.m; sourceTree = "<group>"; };
+		A627687015BE9BF3004DE0C4 /* IosDefaultUi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IosDefaultUi.h; sourceTree = "<group>"; };
+		A627687115BE9C0B004DE0C4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A627687215BE9C0B004DE0C4 /* CoreLocation.framework in Frameworks */,
 				A627684115BE9A67004DE0C4 /* UIKit.framework in Frameworks */,
 				A627684315BE9A67004DE0C4 /* Foundation.framework in Frameworks */,
 				A627684515BE9A68004DE0C4 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +66,7 @@
 		A627683115BE9A67004DE0C4 = {
 			isa = PBXGroup;
 			children = (
+				A627687115BE9C0B004DE0C4 /* CoreLocation.framework */,
 				A627684615BE9A68004DE0C4 /* FoursquareTest */,
 				A627683F15BE9A67004DE0C4 /* Frameworks */,
 				A627683D15BE9A67004DE0C4 /* Products */,
@@ -77,6 +94,8 @@
 		A627684615BE9A68004DE0C4 /* FoursquareTest */ = {
 			isa = PBXGroup;
 			children = (
+				A627686C15BE9BC8004DE0C4 /* lib */,
+				A627686115BE9AD9004DE0C4 /* foursquare */,
 				A627684F15BE9A68004DE0C4 /* FoursquareTestAppDelegate.h */,
 				A627685015BE9A68004DE0C4 /* FoursquareTestAppDelegate.m */,
 				A627685215BE9A68004DE0C4 /* MainStoryboard.storyboard */,
@@ -96,6 +115,29 @@
 				A627684E15BE9A68004DE0C4 /* FoursquareTest-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A627686115BE9AD9004DE0C4 /* foursquare */ = {
+			isa = PBXGroup;
+			children = (
+				A627686215BE9AF0004DE0C4 /* MyFoursquare.h */,
+				A627686315BE9AF0004DE0C4 /* MyFoursquare.m */,
+				A627686415BE9AF0004DE0C4 /* FoursquarePlaceTableViewController.h */,
+				A627686515BE9AF0004DE0C4 /* FoursquarePlaceTableViewController.m */,
+			);
+			name = foursquare;
+			sourceTree = "<group>";
+		};
+		A627686C15BE9BC8004DE0C4 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				A627687015BE9BF3004DE0C4 /* IosDefaultUi.h */,
+				A627686D15BE9BE4004DE0C4 /* MyActivityIndicatorViewLib.h */,
+				A627686E15BE9BE4004DE0C4 /* MyActivityIndicatorViewLib.m */,
+				A627686915BE9BC5004DE0C4 /* MyWeb.h */,
+				A627686A15BE9BC5004DE0C4 /* MyWeb.m */,
+			);
+			name = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +206,10 @@
 				A627684D15BE9A68004DE0C4 /* main.m in Sources */,
 				A627685115BE9A68004DE0C4 /* FoursquareTestAppDelegate.m in Sources */,
 				A627685715BE9A68004DE0C4 /* FoursquareTestViewController.m in Sources */,
+				A627686615BE9AF0004DE0C4 /* MyFoursquare.m in Sources */,
+				A627686715BE9AF0004DE0C4 /* FoursquarePlaceTableViewController.m in Sources */,
+				A627686B15BE9BC5004DE0C4 /* MyWeb.m in Sources */,
+				A627686F15BE9BE4004DE0C4 /* MyActivityIndicatorViewLib.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
