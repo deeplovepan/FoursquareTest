@@ -50,7 +50,11 @@
             {
                 MyFoursquare *locInfo = [[MyFoursquare alloc] init];
                 locInfo.name = [dic objectForKey:@"name"];
-                locInfo.address = [[dic objectForKey:@"location"] objectForKey:@"address"];
+                NSDictionary *locationDic = [dic objectForKey:@"location"];
+                locInfo.address = [locationDic objectForKey:@"address"];
+                locInfo.coordinate = CLLocationCoordinate2DMake([[locationDic objectForKey:@"lat"] floatValue],
+                                                                [[locationDic objectForKey:@"lng"] floatValue]);
+                
                 [placeArray addObject:locInfo];
                 
                 
